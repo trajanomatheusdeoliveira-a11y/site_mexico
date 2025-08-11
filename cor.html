@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barra Fixa Superior Funcional</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin-top: 100px;
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #19755e;
+      color: #202022;
+    }
+
+    main {
+      /*margin: 100px auto 0; /* Empurra main pra baixo do nav */
+      max-width: 900px;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    
+    nav {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100px;
+      background-color: #f8f9fa;
+      border-bottom: 2px solid #a2a9b1;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+      gap: 40px; /* espaço entre links */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    nav a {
+      color: #0645ad;
+      font-size: 18px;
+      text-decoration: none;
+      white-space: nowrap;
+      padding: 10px 15px; /* mais espaço interno */
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #d9e9ff;
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    main h1 {
+      margin-top: 0;
+      font-size: 32px;
+      border-bottom: 2px solid #a2a9b1;
+      padding-bottom: 12px;
+    }
+    main p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-top: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Bandeira do México" height="100">
+    </div>
+    <div class="nav-links">
+      <a href="#inicio">inicio</a>
+      <a href="#Aspectos culturales">Aspectos culturales</a>
+      <a href="#Artistas y arte">Artistas y arte</a>
+      <a href="#Calidad de vida">Calidad de vida</a>
+      <a href="#Puntos turístico">Puntos turísticos</a>
+      <a href="#fuentes-de-investigacion">fuentes de investigación</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="inicio">
+     <h1>¡bienvenido a México!</h1>
+     <p>México es un país lleno de contrastes, donde las antiguas civilizaciones mesoamericanas se entrelazan con la modernidad de sus grandes ciudades. Desde los imponentes templos mayas y aztecas hasta sus coloridas tradiciones populares, México ofrece una riqueza cultural inigualable que ha fascinado al mundo durante siglos. Su historia milenaria, marcada por la grandeza de sus pueblos originarios y la influencia del periodo colonial, ha dado forma a una nación diversa, vibrante y orgullosa de sus raíces.</p>
+     <p>Además de su patrimonio cultural, México destaca por su geografía variada, que va desde playas paradisíacas en el Caribe hasta desiertos imponentes en el norte y selvas exuberantes en el sur. Su gastronomía, considerada Patrimonio de la Humanidad por la UNESCO, es solo una muestra de la creatividad y el alma de su gente. Con cada rincón que se explora, México invita al viajero a descubrir historias, sabores y paisajes que sorprenden y enamoran.</p>
+     <div style="text-align: center;">
+      <img src="mexico-map-vector-design-2ad2c9.webp" width="380">
+     </div>
+    </section>
+
+    <section id="Aspectos culturales">
+      <h2>Aspectos culturales</h2>
+      <p>México es un país con una riqueza cultural inmensa, fruto de la fusión entre las civilizaciones prehispánicas y la influencia española. Tradiciones como el Día de los Muertos, con sus altares coloridos y calaveras decorativas, reflejan la manera única en que los mexicanos honran a sus antepasados. Además, la gastronomía mexicana, reconocida como Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO, es un claro ejemplo de cómo la cultura se expresa a través de los sabores.</p>
+      <p>La música también desempeña un papel importante en la cultura mexicana. Géneros como el mariachi, el norteño y la ranchera son escuchados en todo el país y en celebraciones tradicionales. Instrumentos como la vihuela y la guitarra contribuyen a crear ese sonido característico que emociona tanto a locales como a visitantes. Las fiestas patrias, especialmente el 16 de septiembre, son celebradas con desfiles, música en vivo y fuegos artificiales en todas las regiones.</p>
+      <p>Otro aspecto cultural importante es el valor que los mexicanos dan a la familia y la comunidad. Las reuniones familiares son frecuentes y muy valoradas, y la hospitalidad es una característica común en la sociedad. Esta fuerte conexión comunitaria contribuye a preservar las tradiciones a lo largo de las generaciones, manteniendo viva la identidad nacional.</p>
+      <p>Asimismo, la lengua y los idiomas indígenas desempeñan un papel clave en la identidad cultural del país. Aunque el español es el idioma oficial, México reconoce 68 lenguas indígenas nacionales, incluyendo el náhuatl, el maya y el zapoteco. Estas lenguas son habladas en diversas regiones y son esenciales para preservar la cosmovisión y los conocimientos ancestrales de los pueblos originarios.</p>
+      <div style="text-align: center;">
+        <img src="dia-de-los-muertos.jpeg" alt = "dia-de-los-muertos" width="340">
+      </div>
+
+    </section>
+
+    <section id="Artistas y arte">
+      <h2>Artistas y arte</h2>
+      <p>México ha sido cuna de grandes artistas que han dejado huella tanto a nivel nacional como internacional. Frida Kahlo es una de las figuras más emblemáticas, conocida por sus autorretratos intensos y su enfoque en temas de identidad, dolor y feminidad. Su esposo, Diego Rivera, fue otro gran artista, famoso por sus murales que representan la historia y la lucha del pueblo mexicano.</p>
+      <p>El arte contemporáneo también tiene un lugar destacado en México. Artistas como Gabriel Orozco y Teresa Margolles han sido reconocidos internacionalmente por su innovación y sus propuestas críticas. Además, existen numerosos espacios culturales como el Museo Soumaya, el Museo Frida Kahlo y el Museo de Arte Moderno que promueven tanto el arte tradicional como el contemporáneo.</p>
+      <p>Las artes populares mexicanas también son muy valoradas. La cerámica de Oaxaca, los textiles de Chiapas y las figuras de papel maché son ejemplos del talento artesanal del país. Estas expresiones artísticas no solo reflejan la diversidad cultural de México, sino que también son fuente de sustento económico para muchas comunidades.</p> 
+      <p>También es importante destacar la relevancia del cine mexicano. Directores como Guillermo del Toro, Alfonso Cuarón y Alejandro González Iñárritu han sido galardonados con premios internacionales y han puesto el nombre de México en alto. Además del cine de autor, el país también cuenta con una fuerte industria de cine independiente y documental que aborda problemáticas sociales y culturales.</p>
+      <div style="text-align: center;">
+        <img src="as-duas-fridas.jpg" alt="Mural de Diego Rivera en el Palacio Nacional" width="300">
+      </div>
+      
+    </section>
+
+    <section id="Calidad de vida">
+      <h2>Calidad de vida</h2>
+      <p>La calidad de vida en México varía significativamente entre regiones urbanas y rurales. Ciudades como Ciudad de México, Monterrey y Guadalajara ofrecen una buena infraestructura, acceso a servicios médicos y oportunidades laborales. Sin embargo, en zonas rurales y marginadas, aún existen desafíos relacionados con la pobreza, el acceso a la educación y la salud.</p>
+      <p>En los últimos años, el país ha avanzado en términos de desarrollo humano, aunque persisten problemas como la desigualdad económica y la inseguridad en ciertas regiones. A pesar de esto, muchas personas disfrutan de una vida equilibrada gracias al fuerte tejido social, el clima favorable y el bajo costo de vida en comparación con otros países.</p>
+      <p>El estilo de vida mexicano se caracteriza por un enfoque más relajado y familiar. Las personas valoran el tiempo con la familia, las comidas compartidas y las celebraciones comunitarias. Esta forma de vivir, combinada con la riqueza cultural y natural del país, hace que muchos extranjeros decidan establecerse en México buscando una mejor calidad de vida.</p>
+      <p>Además, México está desarrollando políticas para mejorar la sostenibilidad y el bienestar urbano. En algunas ciudades se están implementando programas de movilidad verde, espacios públicos renovados y acceso a tecnologías limpias. Estas iniciativas buscan ofrecer a los ciudadanos un entorno más saludable y con mejor calidad ambiental.</p>
+      <div style="text-align: center;">
+        <img src="vista-de-cancun-mexico.jpg" alt="Paseo de la Reforma en Ciudad de México" width="400">
+      </div>
+      
+    </section>
+
+    <section id="Puntos turístico">
+      <h2>Puntos turísticos</h2>
+      <p>México es uno de los destinos turísticos más visitados del mundo gracias a su diversidad de paisajes, historia y cultura. Las playas del Caribe, como Cancún y Tulum, son famosas por su belleza natural, mientras que lugares como Los Cabos y Puerto Vallarta atraen a turistas que buscan lujo y relajación. Estas zonas ofrecen aguas cristalinas, actividades acuáticas y una vibrante vida nocturna.</p>
+      <p>Además del turismo de playa, México cuenta con una gran riqueza arqueológica. Las ruinas de Teotihuacán, Chichén Itzá y Palenque son testigos de las antiguas civilizaciones que habitaron el territorio. Estos sitios históricos son visitados por millones de personas al año y permiten conocer más sobre el legado de los pueblos indígenas.</p>
+      <p>Las ciudades coloniales también son una gran atracción turística. Lugares como San Miguel de Allende, Guanajuato y Oaxaca encantan a los visitantes con su arquitectura colorida, calles empedradas y una oferta cultural variada. En estas ciudades, los turistas pueden disfrutar de festivales tradicionales, artesanías locales y una gastronomía única.</p>
+      <p>Por último, el ecoturismo ha ganado relevancia en México. Lugares como la Selva Lacandona en Chiapas, la Reserva de la Biósfera de Sian Ka’an y las barrancas del Cobre en Chihuahua ofrecen experiencias únicas en contacto con la naturaleza. Estas actividades promueven un turismo responsable que contribuye a la conservación del medio ambiente y al desarrollo de las comunidades locales.</p>
+      <div style="text-align: center;">
+        <img src="baixados1.jpeg" alt="Pirámide de Chichén Itzá, México" width="400">
+      </div>
+      
+    
+    </section>
+
+    <section id="fuentes-de-investigacion">
+      <h2>Fuentes de investigación</h2>  
+    <ul>
+        <li><a href="https://expansion.mx/mundo/2021/11/24/estos-son-los-patrimonios-culturales-inmateriales-de-mexico-ante-la-unesco" target="_blank" rel="noopener noreferrer">Patrimonios culturales – Expansión</a></li>
+        <li><a href="https://www.museofridakahlo.org.mx/" target="_blank" rel="noopener noreferrer">Museo Frida Kahlo – Oficial</a></li>
+        <li><a href="https://www.oecdbetterlifeindex.org/countries/mexico/" target="_blank" rel="noopener noreferrer">OECD Better Life Index – México</a></li>
+        <li><a href="https://visitmexico.com/"target="_blank" rel="noopener noreferrer">Turismo en México – Embajada</a></li>
+    </ul>
+
+</section>
+  </main>
+
+</body>
+</html>
